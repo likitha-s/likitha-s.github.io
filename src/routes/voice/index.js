@@ -16,7 +16,6 @@ const features = [
         image: MediaPlayerImage,
         heading: 'Your Voice on your Website',
         list: [
-            "Imagine you can use your own voice to make your readers feel like they are having a conversation with you in person.",
             "Let your visitors hear your voice as soon as they enter your site. A business presentation full of life, a story reaching deep into peoples.", 
             "By combining sound clips of your voice with the content of your pages, you can give your website a more personal, friendly feel. ", 
             
@@ -28,16 +27,14 @@ const features = [
         heading: 'Voice as a Marketing tool!',
         list: [
             "Did you know that your voice is one of the most persuasive marketing tools?",
-            "Use it as a marketing tool to engage and retain visitors, increase sales and product leads, and learn important facts about them.", 
-            "Increase conversions and lower customer acquisition costs by having the voice of your founder and CEO introduce your product or service and then making it easy and intuitive to get started.", 
+            "Use recorded Voice as a marketing tool to engage and retain visitors, increase sales and product leads, and learn important facts about them."
         ]
     },
     {
         image: WebsiteImage,
         heading: 'Makes visitors stay longer!',
         list: [
-            "Say more in a single visit. Connect with your site visitors in a whole new way, and make your website engaging where it wasn't before.",
-            "Record a soundbite whenever you want, and add it to any page on your site in seconds.",
+            "Connect with your site visitors in a whole new way, and make your website engaging where it wasn't before.",
             "Visitors hear the clip when they view the page, and stay longer on each page when their curiosity is piqued."
         ]
     }
@@ -58,7 +55,7 @@ function Hero({ className })  {
                 <h1 className='md:text-4xl md:text-left text-2xl text-center'>Give your website a voice, and let your voice be heard.</h1>
                 <ul className="text-gray-400 mt-[30px] ml-3 text-lg">
                     <li className='mt-3'>No more boring websites! Now your website can talk.</li>
-                    <li className='mt-3'>Give your website a voice by embedding it with a recorded message from a member of your organization or a professional voice talent.</li>
+                    <li className='mt-3'>Increase conversions and lower customer acquisition costs by having the voice of your founder and CEO introduce your product or service and then making it easy and intuitive to get started.</li>
                 </ul>
             </div>
 
@@ -141,7 +138,7 @@ function LeadForm({ className = "" })  {
 function FeatureItem({ className = '', image = '', heading = '', reverse = false , list = []}) {
     return (
         <div className={`flex mt-[30px] md:mt-[80px] ${className} ${reverse? 'flex-row-reverse':''}`}>
-            <div className="hidden w-[350px] flex-shrink-0 md:flex justify-center items-center">
+            <div className="hidden w-[290px] flex-shrink-0 md:flex justify-center items-center">
                 <img src={ image } className='max-w-full max-h-full scale-150' />
             </div>
 
@@ -171,10 +168,8 @@ function Why({ className, img }) {
         <div className={`flex ${className} flex-col md:flex-row`}>
             <h1 className='flex flex-col max-w-md mx-auto text-right text-4xl text-gray-300'>WHY VOICE?</h1>
             <div className='md:ml-[30px] flex-grow text-lg text-justify mt-5 p-3 md:p-0 md:mt-0'>
-                
-            Your marketing team has been going all out to optimize different traffic channels and to reach as many leads as possible, but the leads are not converting into sales at a satisfying rate.
-            Now you can bring your personal touch to a website with Voice. Record a voice message or upload an audio file, and our simplified controls will let you customize the timing of when and how the voice will be played, so that visitors are more likely to respond to ads or site offerings.
-            Whether you are an individual or a large company, this tool is built for anyone who wants to include their voice in their site without programming or editing code.
+            Are your leads are not converting into sales at a satisfying rate ?
+            Now with "Voice", Record a voice message, and our simplified controls will let you customize the timing of when and how the voice will be played, so that visitors are more likely to respond and retain. 
             </div> 
             
 
